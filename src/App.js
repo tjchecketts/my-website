@@ -1,18 +1,49 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Menu } from 'semantic-ui-react';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
+import Creative from './components/Creative';
+
 
 class App extends Component {
+  state = { activeItem: 'home' }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
   render() {
+    const { activeItem } = this.state
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Menu pointing secondary>
+          <Menu.Item 
+            name='home' 
+            active={activeItem === 'home'} 
+            onClick={this.handleItemClick} 
+          />
+          <Menu.Item
+            name='projects'
+            active={activeItem === 'projects'}
+            onClick={this.handleItemClick}
+          />
+          <Menu.Item
+            name='contact me'
+            active={activeItem === 'contact me'}
+            onClick={this.handleItemClick}
+          />
+          <Menu.Item
+            position='right'
+            name='creative'
+            active={activeItem === 'creative'}
+            onClick={this.handleItemClick}
+          />
+        </Menu>
+        {(activeItem === 'home') ? <Home /> : ''}
+        {(activeItem === 'projects') ? <Projects /> : ''}
+        {(activeItem === 'contact me') ? <ContactMe /> : ''}
+        {(activeItem === 'creative') ? <Creative /> : ''}
       </div>
     );
   }

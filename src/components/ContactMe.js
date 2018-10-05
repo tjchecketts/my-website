@@ -11,7 +11,7 @@ class ContactMe extends Component {
         <Header as='h2' textAlign='center'>
           Reach Me Here
         </Header>
-        <Container>
+        <Container textAlign='center'>
           <a 
             href="https://github.com/tjchecketts"
             target="_blank"

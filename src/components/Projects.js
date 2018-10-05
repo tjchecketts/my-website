@@ -11,7 +11,7 @@ class Projects extends Component {
         <Header as='h2' textAlign='center'>
           Will Get Projects Here
         </Header>
-        <Container>
+        <Container textAlign='center'>
           <a 
             href="https://www.linkedin.com/in/tylerjchecketts/"
             target="_blank"

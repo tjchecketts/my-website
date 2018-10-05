@@ -13,11 +13,43 @@ class Projects extends Component {
         </Header>
         <Container textAlign='center'>
           <a 
-            href="https://www.linkedin.com/in/tylerjchecketts/"
+            href="https://github.com/tjchecketts"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
+          </a>
+          <br />
+          <a 
+            href="http://rockps.surge.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rock, Paper, Scissors
+          </a>
+          <br />
+          <a 
+            href="http://tanooki-mario.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tanooki Mario (Flappy Bird)
+          </a>
+          <br />
+          <a 
+            href="http://square.surge.sh/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tic Tac Toe
+          </a>
+          <br />
+          <a 
+            href="http://brick-breaker.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Brick Breaker
           </a>
         </Container>
       </div>

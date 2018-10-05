@@ -13,7 +13,7 @@ class ContactMe extends Component {
         </Header>
         <Container textAlign='center'>
           <a 
-            href="https://github.com/tjchecketts"
+            href="https://www.linkedin.com/in/tylerjchecketts/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,6 @@ class ContactMe extends Component {
           <br />
           <a 
             href="mailto:tylerchecketts@gmail.com"
-            target="_blank"
             rel="noopener noreferrer"
           >
             Email

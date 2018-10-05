@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Header, Segment, Container } from 'semantic-ui-react';
+import { Header, Container } from 'semantic-ui-react';
 
 class ContactMe extends Component {
   render() {
     return (
-      <Segment>
+      <div>
         <Header as='h1' textAlign='center'>
           Contact Me
         </Header>
@@ -28,7 +28,7 @@ class ContactMe extends Component {
             Email
           </a>
         </Container>
-      </Segment>
+      </div>
     )
   }
 }

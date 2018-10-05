@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Image, Segment } from 'semantic-ui-react';
-import ComingSoon from '../images/ComingSoon.gif';
+import { Image } from 'semantic-ui-react';
+import ComingSoon from '../images/ComingSoon-reduced.gif';
 
 class Creative extends Component {
   render() {
     return (
-      <Segment>
+      <div>
         <Image 
           src={ComingSoon} 
           centered 
           size='big' 
         />
-      </Segment>
+      </div>
     )
   }
 }

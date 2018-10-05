@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Header, Segment, Container } from 'semantic-ui-react';
+import { Header, Container } from 'semantic-ui-react';
 
 class Projects extends Component {
   render() {
     return (
-      <Segment>
+      <div>
         <Header as='h1' textAlign='center'>
           My Projects
         </Header>
@@ -20,7 +20,7 @@ class Projects extends Component {
             GitHub
           </a>
         </Container>
-      </Segment>
+      </div>
     )
   }
 }

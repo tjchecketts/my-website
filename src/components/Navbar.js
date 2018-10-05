@@ -6,7 +6,10 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <Menu pointing secondary size='huge'>
+        <Menu 
+          secondary 
+          size='huge'
+        >
           <Link to='/'>
             <Menu.Item name='home' />
           </Link>

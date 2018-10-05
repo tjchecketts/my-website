@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import { Header, Segment } from 'semantic-ui-react';
 
 class Home extends Component {
-
   render() {
-
     return (
-      <div>
-        Home Page - To be built
-      </div>
+      <Segment>
+        <Header as='h1' textAlign='center'>
+          TJ Checketts
+        </Header>
+        <Header as='h2' textAlign='center'>
+          Software Developer
+        </Header>
+      </Segment>
     )
   }
 }

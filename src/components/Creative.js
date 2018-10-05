@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import { Image, Segment } from 'semantic-ui-react';
+import ComingSoon from '../images/ComingSoon.gif';
 
 class Creative extends Component {
-
   render() {
-
     return (
-      <div>
-        Creative Page - To be built
-      </div>
+      <Segment>
+        <Image 
+          src={ComingSoon} 
+          centered 
+          size='big' 
+        />
+      </Segment>
     )
   }
 }

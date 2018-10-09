@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Container } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class Projects extends Component {
   render() {
@@ -11,7 +11,7 @@ class Projects extends Component {
         <Header as='h2' textAlign='center'>
           Will Get Projects Here
         </Header>
-        <Container textAlign='center'>
+        <Header as='h3' textAlign='center'>
           <a 
             href="https://github.com/tjchecketts"
             target="_blank"
@@ -51,7 +51,7 @@ class Projects extends Component {
           >
             Brick Breaker
           </a>
-        </Container>
+        </Header>
       </div>
     )
   }

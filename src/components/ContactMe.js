@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Container } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class ContactMe extends Component {
   render() {
@@ -11,7 +11,7 @@ class ContactMe extends Component {
         <Header as='h2' textAlign='center'>
           Reach Me Here
         </Header>
-        <Container textAlign='center'>
+        <Header as='h3' textAlign='center'>
           <a 
             href="https://www.linkedin.com/in/tylerjchecketts/"
             target="_blank"
@@ -26,7 +26,7 @@ class ContactMe extends Component {
           >
             Email
           </a>
-        </Container>
+        </Header>
       </div>
     )
   }

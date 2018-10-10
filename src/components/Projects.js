@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react';
+import { Card, Header } from 'semantic-ui-react';
+import Tiles from './Tiles';
 
 class Projects extends Component {
   render() {
@@ -9,49 +10,35 @@ class Projects extends Component {
           My Projects
         </Header>
         <Header as='h2' textAlign='center'>
-          Will Get Projects Here
+          GitHub Projects
         </Header>
-        <Header as='h3' textAlign='center'>
-          <a 
-            href="https://github.com/tjchecketts"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <br />
-          <a 
-            href="http://rockps.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Rock, Paper, Scissors
-          </a>
-          <br />
-          <a 
-            href="http://tanooki-mario.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tanooki Mario (Flappy Bird)
-          </a>
-          <br />
-          <a 
-            href="http://square.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tic Tac Toe
-          </a>
-          <br />
-          <a 
-            href="http://brick-breaker.netlify.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Brick Breaker
-          </a>
-        </Header>
+        <Card.Group stackable style={{padding: '15px'}}>
+          <Tiles
+            cardURL='https://github.com/tjchecketts'
+            cardHeader='GitHub'
+            cardDescription='My GitHub account'
+          />
+          <Tiles
+            cardURL='http://rockps.surge.sh/'
+            cardHeader='Rock, Paper, Scissors'
+            cardDescription='Built with jQuery'
+          />
+          <Tiles
+            cardURL='http://tanooki-mario.netlify.com/'
+            cardHeader='Tanooki Mario (Flappy Bird)'
+            cardDescription='Built with vanilla JavaScript using canvas'
+          />
+          <Tiles
+            cardURL='http://square.surge.sh/'
+            cardHeader='Tic Tac Toe'
+            cardDescription='Built with React'
+          />
+          <Tiles
+            cardURL='http://brick-breaker.netlify.com/'
+            cardHeader='Brick Breaker'
+            cardDescription='Built with vanilla JavaScript using canvas'
+          />
+        </Card.Group>
       </div>
     )
   }

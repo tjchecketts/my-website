@@ -16,6 +16,7 @@ class ContactMe extends Component {
             href="https://www.linkedin.com/in/tylerjchecketts/"
             target="_blank"
             rel="noopener noreferrer"
+            title='LinkedIn'
           >
             LinkedIn
           </a>
@@ -23,6 +24,7 @@ class ContactMe extends Component {
           <a 
             href="mailto:tylerchecketts@gmail.com"
             rel="noopener noreferrer"
+            title='Email Me'
           >
             Email
           </a>

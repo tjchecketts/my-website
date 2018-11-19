@@ -10,6 +10,7 @@ class Creative extends Component {
           src={ComingSoon} 
           centered 
           size='big' 
+          alt='gif of hand holding wooden sign saying coming soon'
         />
       </div>
     )

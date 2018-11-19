@@ -13,8 +13,9 @@ const Tiles = (props) => (
         href={props.cardURL}
         target="_blank"
         rel="noopener noreferrer"
+        title={props.cardHeader}
       >
-        Link
+        {props.cardURL}
       </a>
     </Card.Content>
   </Card>

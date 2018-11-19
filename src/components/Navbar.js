@@ -8,17 +8,17 @@ class Navbar extends Component {
       <div>
         <Menu secondary size='huge'>
           <Link to='/'>
-            <Menu.Item name='home' />
+            <Menu.Item name='home' title='Home' />
           </Link>
           <Link to='/projects'>
-            <Menu.Item name='projects' />
+            <Menu.Item name='projects' title='Projects' />
           </Link>
           <Link to='/contactme'>
-            <Menu.Item name='contact me' />
+            <Menu.Item name='contact me' title='Contact me' />
           </Link>
           <Menu.Menu position='right'>
             <Link to='/creative'>
-              <Menu.Item name='creative' />
+              <Menu.Item name='creative' title='Creative' />
             </Link>
           </Menu.Menu>
         </Menu>
